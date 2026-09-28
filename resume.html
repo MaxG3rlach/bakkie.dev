@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Résumé of Max Gerlach — systems engineering student and student pilot, Netherlands." />
+  <meta name="robots" content="noindex" />
+  <title>Résumé — Max Gerlach</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23FF8A5B'/%3E%3Ctext x='16' y='23' font-family='monospace' font-size='18' font-weight='bold' fill='black' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+  <style>
+    :root { --paper: #F4F1EA; --ink: #131311; --muted: #6E6A5E; --accent: #FF8A5B; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    .sheet { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .back { font-family: ui-monospace, monospace; font-size: 0.8rem; color: var(--ink); }
+    header.cv { border-bottom: 3px solid var(--ink); padding: 1.5rem 0 1.2rem; margin-bottom: 1.5rem; }
+    header.cv h1 { margin: 0; font-size: clamp(2rem, 6vw, 3rem); letter-spacing: -0.02em; }
+    header.cv p { margin: 0.4rem 0 0; color: var(--muted); }
+    header.cv a { color: var(--ink); }
+    h2 { font-family: ui-monospace, monospace; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.16em; border-bottom: 2px solid var(--ink); padding-bottom: 0.35rem; margin: 2rem 0 1rem; }
+    .item { margin-bottom: 1.2rem; }
+    .item-head { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; align-items: baseline; }
+    .item-head h3 { margin: 0; font-size: 1.05rem; }
+    .item-head span { font-family: ui-monospace, monospace; font-size: 0.75rem; color: var(--muted); }
+    .item p { margin: 0.3rem 0; font-size: 0.95rem; }
+    ul.tight { margin: 0.3rem 0 0; padding-left: 1.1rem; font-size: 0.95rem; }
+    ul.tight li { margin: 0.15rem 0; }
+    .skills { display: flex; flex-wrap: wrap; gap: 0.4rem; list-style: none; margin: 0; padding: 0; }
+    .skills li { border: 2px solid var(--ink); padding: 0.2rem 0.7rem; font-family: ui-monospace, monospace; font-size: 0.78rem; }
+    .printbtn { position: fixed; bottom: 1.2rem; right: 1.2rem; background: var(--accent); color: #000; border: 2px solid var(--ink); padding: 0.6rem 1rem; font-family: ui-monospace, monospace; font-size: 0.82rem; cursor: pointer; }
+    @media print {
+      body { background: #fff; }
+      .printbtn, .back { display: none; }
+      .sheet { max-width: none; padding: 0; }
+      a { color: #000; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <a class="back" href="index.html">← back to portfolio</a>
+    <header class="cv">
+      <h1>Max Gerlach</h1>
+      <p>Systems engineering student · student pilot · Netherlands<br />
+      <a href="mailto:mgerlach0168@gmail.com">mgerlach0168@gmail.com</a> ·
+      <a href="https://github.com/MaxG3rlach">github.com/MaxG3rlach</a></p>
+    </header>
+
+    <section aria-label="Summary">
+      <h2>summary</h2>
+      <p>Systems engineering student who ships. I run a one-person game studio, published TikTok effects used by 2M people, and build for the web — always in public on GitHub. Training as a student pilot alongside my studies. Seeking a 2026 systems engineering internship.</p>
+    </section>
+
+    <section aria-label="Experience">
+      <h2>experience &amp; projects</h2>
+      <div class="item">
+        <div class="item-head"><h3>Founder — Probably Labs (Roblox studio)</h3><span>2024 — present</span></div>
+        <p>One-person studio: Luau scripting, game design, playtesting with real players.</p>
+        <ul class="tight">
+          <li>Own the full lifecycle: requirements, build, test, iterate.</li>
+          <li>Treat player reports as verification input for the next cycle.</li>
+        </ul>
+      </div>
+      <div class="item">
+        <div class="item-head"><h3>Effect creator — TikTok Effect House</h3><span>past project</span></div>
+        <ul class="tight">
+          <li>Filters reached <strong>2M unique users</strong> and <strong>80M views</strong>.</li>
+          <li>Iterated on retention using usage analytics; optimised for mid-range phones.</li>
+        </ul>
+      </div>
+      <div class="item">
+        <div class="item-head"><h3>Web projects</h3><span>ongoing</span></div>
+        <ul class="tight">
+          <li>Hand-built sites in semantic HTML, CSS and vanilla JS — no build step.</li>
+          <li>Portfolio deploys straight from GitHub to a custom domain with HTTPS.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section aria-label="Other">
+      <h2>other</h2>
+      <div class="item">
+        <div class="item-head"><h3>Student pilot</h3><span>in training</span></div>
+        <p>Procedure discipline, checklist culture, brief–execute–debrief loop. I apply the same loop to engineering releases.</p>
+      </div>
+    </section>
+
+    <section aria-label="Skills">
+      <h2>skills</h2>
+      <ul class="skills">
+        <li>Luau</li><li>JavaScript</li><li>HTML</li><li>CSS</li><li>Git</li><li>GitHub Pages</li><li>Effect House</li><li>Roblox Studio</li><li>Dutch (native)</li><li>English (fluent)</li>
+      </ul>
+    </section>
+  </div>
+  <button class="printbtn" type="button" onclick="window.print()">print / save pdf</button>
+</body>
+</html>
